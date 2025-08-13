@@ -5,7 +5,15 @@ import emailRoutes from "./routes/emailRoutes.js";
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+  origin: [
+    "http://localhost:5173",
+    "https://ahmed-alfarouq.vercel.app",
+    "https://ahmedalfarouq.vercel.app/",
+  ],
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
