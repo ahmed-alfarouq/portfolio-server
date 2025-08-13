@@ -10,7 +10,8 @@ const corsOptions = {
     "http://localhost:5173",
     "https://ahmed-alfarouq.vercel.app",
     "https://ahmedalfarouq.vercel.app",
-    "https://ahmed-alfarouq-git-contactme-ahmed-alfarouqs-projects.vercel.app/af-portfolio-server.vercel.app",
+    "https://ahmed-alfarouq-*.vercel.app",
+    "https://ahmedalfarouq-*.vercel.app",
   ],
 };
 
